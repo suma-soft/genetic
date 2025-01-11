@@ -1,0 +1,211 @@
+Log Start
+Generation 1: Best Fitness = 19
+Parent1: [1 1 0 1 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 0 0 1 1], Operator: Single-point
+Parent1: [1 1 0 0 1], Parent2: [1 0 1 0 0]
+Child1: [0 1 1 0 0], Child2: [1 0 0 0 1], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 1], Child2: [0 1 0 1 0], Operator: Single-point
+Generation 2: Best Fitness = 0
+Parent1: [1 0 0 0 1], Parent2: [0 1 1 0 0]
+Child1: [1 0 1 0 0], Child2: [0 0 0 0 1], Operator: Single-point
+Parent1: [0 1 1 0 0], Parent2: [1 0 0 0 1]
+Child1: [0 1 1 0 1], Child2: [1 0 0 1 0], Operator: Single-point
+Parent1: [1 1 0 0 0], Parent2: [1 0 0 0 1]
+Child1: [0 1 0 0 1], Child2: [1 0 0 0 0], Operator: Single-point
+Generation 3: Best Fitness = 8
+Parent1: [0 1 0 0 1], Parent2: [1 0 0 1 0]
+Child1: [0 0 0 1 0], Child2: [1 1 0 0 1], Operator: Single-point
+Parent1: [1 0 0 1 0], Parent2: [0 0 0 0 1]
+Child1: [1 0 0 0 1], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [1 0 1 0 0], Parent2: [1 0 1 0 0]
+Child1: [0 0 1 0 0], Child2: [1 0 1 0 0], Operator: Single-point
+Generation 4: Best Fitness = 15
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [0 0 0 1 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [1 1 0 0 1]
+Child1: [0 1 0 0 1], Child2: [1 0 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 1 0 0]
+Child1: [0 0 0 0 0], Child2: [0 0 1 1 0], Operator: Single-point
+Generation 5: Best Fitness = 15
+Parent1: [1 0 0 1 0], Parent2: [1 0 0 1 0]
+Child1: [1 0 0 1 0], Child2: [0 0 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 0 0]
+Child1: [0 0 0 0 0], Child2: [0 0 1 1 0], Operator: Single-point
+Parent1: [1 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [1 0 0 1 0], Child2: [0 0 0 0 0], Operator: Single-point
+Generation 6: Best Fitness = 15
+Parent1: [0 0 1 1 0], Parent2: [0 0 1 1 0]
+Child1: [0 1 0 1 1], Child2: [0 0 1 0 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 1 1 0]
+Child1: [0 0 1 0 0], Child2: [0 0 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [0 0 0 1 0], Child2: [0 0 0 1 1], Operator: Single-point
+Generation 7: Best Fitness = 15
+Parent1: [0 0 0 1 0], Parent2: [0 0 1 0 0]
+Child1: [0 0 0 1 0], Child2: [0 0 1 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [1 0 1 1 0], Child2: [0 0 0 1 1], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [1 0 0 1 0], Child2: [0 0 0 1 0], Operator: Single-point
+Generation 8: Best Fitness = 15
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [1 0 0 1 0], Child2: [0 0 0 1 0], Operator: Single-point
+Parent1: [1 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [1 0 0 1 1], Child2: [0 0 0 1 1], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [0 0 0 1 0], Child2: [0 0 0 1 0], Operator: Single-point
+Generation 9: Best Fitness = 15
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [0 1 0 0 0], Child2: [0 0 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 0]
+Child1: [0 0 0 0 0], Child2: [0 0 0 1 1], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 0 0 1 1]
+Child1: [0 0 0 1 1], Child2: [0 0 1 1 0], Operator: Single-point
+Generation 10: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 0 1 1 0]
+Child1: [0 1 1 1 0], Child2: [0 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 0 0 1 0]
+Child1: [0 0 0 1 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 11: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 0 0 1 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 0 1 1 0], Operator: Single-point
+Generation 12: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 1 0 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 13: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 1 0 0 1], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 1], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 14: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [1 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 1 0 1], Operator: Single-point
+Generation 15: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 1 1 1], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 1 0], Child2: [0 1 0 0 1], Operator: Single-point
+Generation 16: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 1], Operator: Single-point
+Generation 17: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 1 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 18: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 1 0]
+Child1: [0 1 0 0 0], Child2: [0 1 1 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 19: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 1], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 20: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 1 0 1], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 21: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 1 0 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 0 0 0 0], Operator: Single-point
+Generation 22: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 23: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 1 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 24: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 0 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Generation 25: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [1 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 26: Best Fitness = 19
+Parent1: [1 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [1 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [1 1 0 1 0], Operator: Single-point
+Generation 27: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 1], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 1 0], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 28: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 1], Child2: [0 1 0 0 0], Operator: Single-point
+Generation 29: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 1], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 1 0], Operator: Single-point
+Generation 30: Best Fitness = 19
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [1 1 0 0 0], Child2: [0 0 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 0], Child2: [0 1 0 0 0], Operator: Single-point
+Parent1: [0 1 0 0 0], Parent2: [0 1 0 0 0]
+Child1: [0 1 0 0 1], Child2: [0 1 0 0 0], Operator: Single-point
