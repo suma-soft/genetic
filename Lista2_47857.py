@@ -4,7 +4,6 @@ import numpy as np
 # Wczytanie danych z pliku zbior_danych_ag.csv
 data = pd.read_csv("zbior_danych_ag.csv", sep=';')
 
-# Funkcja przetwarzająca tekst na tablicę numpy
 def parse_array(array_string):
     array_string = array_string.strip("[]")  # Usuń nawiasy []
     array_string = array_string.replace("  ", " ")  # Zredukuj podwójne spacje
