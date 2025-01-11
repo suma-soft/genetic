@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 # Wczytanie danych z pliku zbior_danych_ag.csv
 data = pd.read_csv("zbior_danych_ag.csv", sep=';')
@@ -83,14 +82,8 @@ def generate_next_generation(population, fitness_scores, mutation_rate, operator
         # Mutacja
         child1 = mutate(child1, mutation_rate)
         child2 = mutate(child2, mutation_rate)
-
-        # Logowanie szczegółów
-        log(f"Parent1: {parent1}, Parent2: {parent2}")
-        log(f"Child1: {child1}, Child2: {child2}, Operator: {operator_used}")
-
         new_population.append(child1)
         new_population.append(child2)
-
     return np.array(new_population)
 
 # Algorytm genetyczny
@@ -110,12 +103,8 @@ num_items = len(weights)
 population_size = 6
 generations = 30
 mutation_rate = 0.1
-operator_choice = 1  # 0: Single-point, 1: Two-point
 
 # Uruchomienie algorytmu genetycznego
-with open(log_file, "w") as f:
-    f.write("Log Start\n")
-
 best_solution, best_solution_fitness = genetic_algorithm(
     values, weights, capacity, num_items, population_size, generations, mutation_rate, operator_choice
 )
