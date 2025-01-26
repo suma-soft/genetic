@@ -19,7 +19,7 @@ weights_hidden_output = np.random.uniform(-1, 1, (hidden_neurons, output_neurons
 bias_output = np.random.uniform(-1, 1, (1, output_neurons))  # Bias dla warstwy wyjściowej
 
 # Hiperparametry
-learning_rate = 0.1  # Współczynnik uczenia
+learning_rate = 0.5  # Współczynnik uczenia
 epochs = 10000  # Liczba epok
 
 # Krok 3: Funkcja aktywacji i jej pochodna
@@ -33,43 +33,47 @@ def sigmoid_derivative(x):
 
 # Krok 4: Pętla uczenia
 mse_history = []  # Lista do przechowywania wartości MSE
-for epoch in range(epochs):
-    # Propagacja w przód
-    # Wejście -> Warstwa ukryta
-    hidden_input = np.dot(X, weights_input_hidden) + bias_hidden  # Obliczenie sumy ważonej dla warstwy ukrytej
-    hidden_output = sigmoid(hidden_input)  # Przejście przez funkcję aktywacji w warstwie ukrytej
+with open("log_xor.txt", "w") as log_file:
+    log_file.write("Epoka,MSE\n")  # Nagłówki dla pliku CSV
+    for epoch in range(epochs):
+        # Propagacja w przód
+        # Wejście -> Warstwa ukryta
+        hidden_input = np.dot(X, weights_input_hidden) + bias_hidden  # Obliczenie sumy ważonej dla warstwy ukrytej
+        hidden_output = sigmoid(hidden_input)  # Przejście przez funkcję aktywacji w warstwie ukrytej
 
-    # Warstwa ukryta -> Wyjście
-    final_input = np.dot(hidden_output, weights_hidden_output) + bias_output  # Obliczenie sumy ważonej dla wyjścia
-    final_output = sigmoid(final_input)  # Przejście przez funkcję aktywacji w warstwie wyjściowej
+        # Warstwa ukryta -> Wyjście
+        final_input = np.dot(hidden_output, weights_hidden_output) + bias_output  # Obliczenie sumy ważonej dla wyjścia
+        final_output = sigmoid(final_input)  # Przejście przez funkcję aktywacji w warstwie wyjściowej
 
-    # Obliczenie błędu
-    error = y - final_output  # Różnica między oczekiwanym a uzyskanym wynikiem
+        # Obliczenie błędu
+        error = y - final_output  # Różnica między oczekiwanym a uzyskanym wynikiem
 
-    # Propagacja wstecz
-    # Gradient dla wyjścia
-    output_gradient = error * sigmoid_derivative(final_output)
-    weights_hidden_output_update = np.dot(hidden_output.T, output_gradient)  # Aktualizacja wag ukryta -> wyjście
-    bias_output_update = np.sum(output_gradient, axis=0, keepdims=True)  # Aktualizacja biasu wyjściowego
+        # Propagacja wstecz
+        # Gradient dla wyjścia
+        output_gradient = error * sigmoid_derivative(final_output)
+        weights_hidden_output_update = np.dot(hidden_output.T, output_gradient)  # Aktualizacja wag ukryta -> wyjście
+        bias_output_update = np.sum(output_gradient, axis=0, keepdims=True)  # Aktualizacja biasu wyjściowego
 
-    # Gradient dla warstwy ukrytej
-    hidden_error = np.dot(output_gradient, weights_hidden_output.T)  # Błąd propagowany do warstwy ukrytej
-    hidden_gradient = hidden_error * sigmoid_derivative(hidden_output)  # Gradient w warstwie ukrytej
-    weights_input_hidden_update = np.dot(X.T, hidden_gradient)  # Aktualizacja wag wejście -> ukryta
-    bias_hidden_update = np.sum(hidden_gradient, axis=0, keepdims=True)  # Aktualizacja biasu ukrytego
+        # Gradient dla warstwy ukrytej
+        hidden_error = np.dot(output_gradient, weights_hidden_output.T)  # Błąd propagowany do warstwy ukrytej
+        hidden_gradient = hidden_error * sigmoid_derivative(hidden_output)  # Gradient w warstwie ukrytej
+        weights_input_hidden_update = np.dot(X.T, hidden_gradient)  # Aktualizacja wag wejście -> ukryta
+        bias_hidden_update = np.sum(hidden_gradient, axis=0, keepdims=True)  # Aktualizacja biasu ukrytego
 
-    # Aktualizacja wag i biasów
-    weights_hidden_output += learning_rate * weights_hidden_output_update
-    bias_output += learning_rate * bias_output_update
+        # Aktualizacja wag i biasów
+        weights_hidden_output += learning_rate * weights_hidden_output_update
+        bias_output += learning_rate * bias_output_update
 
-    weights_input_hidden += learning_rate * weights_input_hidden_update
-    bias_hidden += learning_rate * bias_hidden_update
+        weights_input_hidden += learning_rate * weights_input_hidden_update
+        bias_hidden += learning_rate * bias_hidden_update
 
-    # Monitorowanie błędu
-    mse = np.mean(np.square(error))  # Średni błąd kwadratowy
-    mse_history.append(mse)  # Zapisanie MSE do historii
-    if (epoch + 1) % 1000 == 0:
-        print(f"Epoka {epoch + 1}, Błąd MSE: {mse}")
+        # Monitorowanie błędu
+        mse = np.mean(np.square(error))  # Średni błąd kwadratowy
+        mse_history.append(mse)  # Zapisanie MSE do historii
+        if (epoch + 1) % 100 == 0:
+            log_file.write(f"{epoch + 1},{mse}\n")  # Zapisanie MSE co 100 epok
+        if (epoch + 1) % 1000 == 0:
+            print(f"Epoka {epoch + 1}, Błąd MSE: {mse}")
 
 # Wagi i biasy po nauce
 print("\nWyuczone wagi wejście -> ukryta:", weights_input_hidden)
