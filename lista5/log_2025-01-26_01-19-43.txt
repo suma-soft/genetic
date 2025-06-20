@@ -1,0 +1,15 @@
+Log algorytmu genetycznego:
+Data: 2025-01-26 01:19:43
+Rozmiar populacji: 10
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.05
+Metoda selekcji: roulette
+Operator krzyżowania: Single-point
+Metoda mutacji: dynamic
+Metoda inicjalizacji populacji: uniform
+
+Pokolenie 1:
+Najlepsza wartość fitness: 18.05
+Najgorsza wartość fitness: -175.2
+Średnia wartość fitness: -41.31
+Różnorodność populacji: 0.9000

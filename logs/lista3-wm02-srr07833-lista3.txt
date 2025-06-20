@@ -1,0 +1,534 @@
+Log algorytmu genetycznego:
+Data: 2025-01-11 15:48:23
+Rozmiar populacji: 6
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.2
+Metoda selekcji: roulette
+Operator krzyżowania: Two-point
+
+Pokolenie 1:
+Najlepsza wartość fitness: 0
+Średnia różnorodność populacji: 0.8333
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000057 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 1, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 1, 1]
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 0, 1, 1, 0], Fitness: 0.0
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 0, 1, 1, 0]
+Rodzic 2: [0, 1, 0, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 0, 0, 1, 1]
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Ruletka:
+Fitness: [np.int64(0), np.float64(-60.0), np.float64(-15.6), np.float64(-8.4), np.int64(0), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.2174), np.float64(0.0), np.float64(0.1609), np.float64(0.187), np.float64(0.2174), np.float64(0.2174)]
+Wybrany osobnik: [0, 0, 1, 1, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 1, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 1, 0]
+
+Pokolenie 2:
+Najlepsza wartość fitness: 19
+Średnia różnorodność populacji: 1.0000
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 1, 1], Fitness: -10.5
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 0, 0]
+Dziecko 2: [0, 0, 0, 1, 1]
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Ruletka:
+Fitness: [np.int64(19), np.float64(-12.25), np.float64(-52.9), np.float64(-10.5), np.float64(18.05), np.float64(-75.6)]
+Prawdopodobieństwa: [np.float64(0.2787), np.float64(0.1867), np.float64(0.0669), np.float64(0.1918), np.float64(0.2759), np.float64(0.0)]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Pokolenie 3:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 1.0000
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 1, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 1, 1, 0, 0]
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000064 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 1, 0]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 1, 0]
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-53.0), np.float64(-10.5), np.float64(-1.9), np.float64(18.9), np.float64(12.0), np.int64(15)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.1424), np.float64(0.1712), np.float64(0.2409), np.float64(0.2178), np.float64(0.2278)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Pokolenie 4:
+Najlepsza wartość fitness: 20.25
+Średnia różnorodność populacji: 0.6667
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Ruletka:
+Fitness: [np.float64(18.9), np.float64(18.05), np.float64(20.25), np.float64(-52.9), np.float64(18.9), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1997), np.float64(0.1974), np.float64(0.2035), np.float64(0.0), np.float64(0.1997), np.float64(0.1997)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Pokolenie 5:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 0.6667
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(18.9), np.int64(8), np.float64(18.9), np.float64(0.0), np.float64(0.0), np.int64(0)]
+Prawdopodobieństwa: [np.float64(0.4127), np.float64(0.1747), np.float64(0.4127), np.float64(0.0), np.float64(0.0), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Pokolenie 6:
+Najlepsza wartość fitness: 18.05
+Średnia różnorodność populacji: 0.6667
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000042 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Ruletka:
+Fitness: [np.float64(18.05), np.float64(-10.5), np.int64(8), np.int64(8), np.float64(-13.8), np.float64(18.05)]
+Prawdopodobieństwa: [np.float64(0.288), np.float64(0.0298), np.float64(0.1971), np.float64(0.1971), np.float64(0.0), np.float64(0.288)]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000067 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Pokolenie 7:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 0.8333
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000058 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(15), np.int64(0), np.float64(18.9), np.float64(0.0)]
+Prawdopodobieństwa: [np.float64(0.1316), np.float64(0.3109), np.float64(0.2467), np.float64(0.0), np.float64(0.3109), np.float64(0.0)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000064 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 0, 1, 0]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Pokolenie 8:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 0.8333
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [1, 0, 1, 0, 1], Fitness: -17.55
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [1, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 1, 0]
+Dziecko 1: [1, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 1, 0]
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [1, 0, 1, 0, 1], Fitness: -17.55
+
+Ruletka:
+Fitness: [np.float64(-84.1), np.float64(18.9), np.float64(18.9), np.float64(-17.55), np.int64(15), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.0), np.float64(0.2221), np.float64(0.2221), np.float64(0.1435), np.float64(0.2137), np.float64(0.1986)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000042 s):
+Rodzic 1: [1, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [1, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Pokolenie 9:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 0.6667
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Ruletka:
+Fitness: [np.int64(8), np.float64(18.9), np.int64(8), np.float64(0.0), np.float64(12.0), np.int64(8)]
+Prawdopodobieństwa: [np.float64(0.1457), np.float64(0.3443), np.float64(0.1457), np.float64(0.0), np.float64(0.2186), np.float64(0.1457)]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Pokolenie 10:
+Najlepsza wartość fitness: 18.9
+Średnia różnorodność populacji: 0.6667
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000048 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000067 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Ruletka:
+Fitness: [np.float64(-13.8), np.float64(-52.9), np.int64(0), np.float64(18.9), np.int64(0), np.float64(18.9)]
+Prawdopodobieństwa: [np.float64(0.1355), np.float64(0.0), np.float64(0.1834), np.float64(0.2489), np.float64(0.1834), np.float64(0.2489)]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000052 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Czas wykonania algorytmu: 0.023993 sekund
+Średnia różnorodność wszystkich populacji: 0.7833
+
+Najlepsze rozwiązanie: [0, 0, 1, 0, 1]
+Wartość fitness najlepszego rozwiązania: 18.9
+Przedmioty w plecaku: [3, 5]

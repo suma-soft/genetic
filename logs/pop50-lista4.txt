@@ -1,0 +1,4078 @@
+Log algorytmu genetycznego:
+Data: 2025-01-11 18:13:58
+Rozmiar populacji: 50
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.1
+Metoda selekcji: tournament
+Operator krzyżowania: Two-point
+
+Pokolenie 1:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -139.75
+Średnia różnorodność populacji: 0.5000
+
+Turniej: [39, 30, 0]
+Chromosomy w turnieju: [[1, 0, 0, 1, 1], [0, 0, 1, 1, 1], [1, 1, 0, 1, 1]]
+Fitness wybranych: [-12.25, -10.5, -72.9]
+Wybrany osobnik: [0, 0, 1, 1, 1], Fitness: -10.5
+
+Turniej: [6, 43, 29]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-8.4, 20.25, 18.05]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000057 s):
+Rodzic 1: [0, 0, 1, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [27, 32, 34]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 0, 1, 0], [1, 0, 1, 0, 0]]
+Fitness wybranych: [8.0, 15.0, -6.2]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [15, 37, 29]
+Chromosomy w turnieju: [[1, 1, 0, 1, 1], [1, 1, 0, 1, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-72.9, -72.9, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [41, 40, 48]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [28, 15, 8]
+Chromosomy w turnieju: [[1, 0, 0, 1, 1], [1, 1, 0, 1, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-12.25, -72.9, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000052 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [34, 30, 31]
+Chromosomy w turnieju: [[1, 0, 1, 0, 0], [0, 0, 1, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-6.2, -10.5, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [35, 28, 40]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [1, 0, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.9, -12.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [31, 22, 18]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 1, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [19.0, 18.4, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [2, 4, 34]
+Chromosomy w turnieju: [[1, 0, 0, 1, 1], [0, 1, 0, 1, 1], [1, 0, 1, 0, 0]]
+Fitness wybranych: [-12.25, -8.4, -6.2]
+Wybrany osobnik: [1, 0, 1, 0, 0], Fitness: -6.2
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000062 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [1, 1, 0, 0, 0]
+
+Turniej: [8, 39, 10]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [1, 0, 0, 1, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, -12.25, -4.65]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [20, 8, 41]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [0, 0, 1, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-10.5, 18.05, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [5, 31, 34]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [0, 1, 0, 0, 0], [1, 0, 1, 0, 0]]
+Fitness wybranych: [18.4, 19.0, -6.2]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [1, 24, 39]
+Chromosomy w turnieju: [[1, 0, 1, 1, 1], [1, 1, 1, 0, 0], [1, 0, 0, 1, 1]]
+Fitness wybranych: [-75.6, -60.0, -12.25]
+Wybrany osobnik: [1, 0, 0, 1, 1], Fitness: -12.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [1, 1, 0, 1, 1]
+
+Turniej: [30, 21, 23]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [0, 1, 0, 1, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [-10.5, 1.7, -10.5]
+Wybrany osobnik: [0, 1, 0, 1, 0], Fitness: 1.7
+
+Turniej: [18, 37, 13]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [1, 1, 0, 1, 1], [1, 1, 1, 1, 0]]
+Fitness wybranych: [18.4, -72.9, -139.75]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 1, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 0, 0, 1, 1]
+
+Turniej: [36, 40, 9]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [0, 1, 0, 0, 0], [1, 1, 0, 1, 0]]
+Fitness wybranych: [18.4, 19.0, -50.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [46, 12, 8]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 1, 1, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-1.9, -53.0, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [29, 41, 18]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 1]]
+Fitness wybranych: [18.05, 18.05, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Turniej: [8, 16, 18]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [18.05, 18.9, 18.4]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 1, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [17, 42, 9]
+Chromosomy w turnieju: [[1, 0, 0, 1, 0], [0, 1, 1, 0, 0], [1, 1, 0, 1, 0]]
+Fitness wybranych: [-2.7, -1.9, -50.6]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Turniej: [24, 23, 25]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 0, 1, 1, 1], [1, 1, 0, 1, 1]]
+Fitness wybranych: [-60.0, -10.5, -72.9]
+Wybrany osobnik: [0, 0, 1, 1, 1], Fitness: -10.5
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 1, 0, 0]
+Rodzic 2: [0, 0, 1, 1, 1]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Turniej: [48, 30, 44]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 1, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, -10.5, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [40, 8, 14]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 18.05, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [40, 10, 11]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, -4.65, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [12, 45, 22]
+Chromosomy w turnieju: [[0, 1, 1, 1, 0], [1, 0, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [-53.0, 12.0, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000066 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 1, 1]
+
+Turniej: [7, 36, 5]
+Chromosomy w turnieju: [[1, 1, 0, 1, 0], [0, 0, 0, 1, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [-50.6, 18.4, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Turniej: [24, 29, 2]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 0, 1, 0, 0], [1, 0, 0, 1, 1]]
+Fitness wybranych: [-60.0, 18.05, -12.25]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000049 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [13, 49, 4]
+Chromosomy w turnieju: [[1, 1, 1, 1, 0], [1, 1, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-139.75, -72.9, -8.4]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Turniej: [27, 33, 43]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [1, 1, 0, 1, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, -50.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 1, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [21, 48, 0]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 0], [1, 1, 0, 1, 1]]
+Fitness wybranych: [1.7, 19.0, -72.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [39, 25, 0]
+Chromosomy w turnieju: [[1, 0, 0, 1, 1], [1, 1, 0, 1, 1], [1, 1, 0, 1, 1]]
+Fitness wybranych: [-12.25, -72.9, -72.9]
+Wybrany osobnik: [1, 0, 0, 1, 1], Fitness: -12.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000057 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [1, 1, 0, 1, 1]
+
+Turniej: [4, 38, 21]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-8.4, 8.0, 1.7]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [45, 15, 26]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [1, 1, 0, 1, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [12.0, -72.9, -1.9]
+Wybrany osobnik: [1, 0, 0, 0, 1], Fitness: 12.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000051 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [1, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [1, 0, 0, 0, 1]
+
+Turniej: [20, 2, 46]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [1, 0, 0, 1, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-10.5, -12.25, -1.9]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Turniej: [21, 32, 19]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 0, 0, 1, 0], [1, 0, 1, 0, 1]]
+Fitness wybranych: [1.7, 15.0, -17.55]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 1, 0, 0]
+Rodzic 2: [0, 0, 0, 1, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Turniej: [20, 30, 7]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [0, 0, 1, 1, 1], [1, 1, 0, 1, 0]]
+Fitness wybranych: [-10.5, -10.5, -50.6]
+Wybrany osobnik: [0, 0, 1, 1, 1], Fitness: -10.5
+
+Turniej: [14, 12, 39]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 1, 1, 0], [1, 0, 0, 1, 1]]
+Fitness wybranych: [-15.6, -53.0, -12.25]
+Wybrany osobnik: [1, 0, 0, 1, 1], Fitness: -12.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 1, 1, 1]
+Rodzic 2: [1, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [1, 0, 1, 1, 1]
+
+Turniej: [44, 31, 30]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [-13.8, 19.0, -10.5]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [11, 39, 4]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [1, 0, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-1.9, -12.25, -8.4]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000097 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [22, 48, 21]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [18.4, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [49, 4, 48]
+Chromosomy w turnieju: [[1, 1, 0, 1, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-72.9, -8.4, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000078 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [15, 8, 41]
+Chromosomy w turnieju: [[1, 1, 0, 1, 1], [0, 0, 1, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-72.9, 18.05, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [19, 29, 31]
+Chromosomy w turnieju: [[1, 0, 1, 0, 1], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-17.55, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000057 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 1, 0, 0]
+
+Turniej: [35, 6, 10]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 1, 0, 1, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [18.9, -8.4, -4.65]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Turniej: [12, 5, 17]
+Chromosomy w turnieju: [[0, 1, 1, 1, 0], [0, 0, 0, 1, 1], [1, 0, 0, 1, 0]]
+Fitness wybranych: [-53.0, 18.4, -2.7]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000054 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 1, 1]
+
+Turniej: [7, 41, 39]
+Chromosomy w turnieju: [[1, 1, 0, 1, 0], [0, 0, 1, 0, 0], [1, 0, 0, 1, 1]]
+Fitness wybranych: [-50.6, 18.05, -12.25]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [10, 15, 30]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 1, 0, 1, 1], [0, 0, 1, 1, 1]]
+Fitness wybranych: [-4.65, -72.9, -10.5]
+Wybrany osobnik: [1, 1, 0, 0, 0], Fitness: -4.65
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000054 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [1, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [1, 0, 1, 0, 0]
+
+Turniej: [34, 3, 41]
+Chromosomy w turnieju: [[1, 0, 1, 0, 0], [0, 0, 1, 0, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-6.2, 18.9, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Turniej: [39, 37, 0]
+Chromosomy w turnieju: [[1, 0, 0, 1, 1], [1, 1, 0, 1, 1], [1, 1, 0, 1, 1]]
+Fitness wybranych: [-12.25, -72.9, -72.9]
+Wybrany osobnik: [1, 0, 0, 1, 1], Fitness: -12.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [1, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [1, 0, 0, 1, 1]
+
+Pokolenie 2:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -76.25
+Średnia różnorodność populacji: 0.4400
+
+Turniej: [44, 27, 42]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [8.0, 18.05, 0.0]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [34, 46, 11]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [0.0, 19.0, 18.05]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [7, 42, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 1, 1, 0]]
+Fitness wybranych: [19.0, 0.0, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [0, 5, 12]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-76.25, 0.0, 0.0]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [37, 34, 11]
+Chromosomy w turnieju: [[0, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [0.0, 0.0, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [16, 3, 31]
+Chromosomy w turnieju: [[1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-6.2, 0.0, -15.6]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [41, 47, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -60.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [10, 5, 41]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [0, 24, 29]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-76.25, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [33, 18, 22]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 0, 1, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [12.0, -10.5, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [20, 11, 39]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [44, 41, 31]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, 19.0, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [2, 44, 43]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 0, 0, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-13.8, 8.0, -1.9]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [21, 8, 1]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 0, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-76.25, 18.05, 8.0]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [26, 39, 13]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [0, 1, 0, 0, 0], [1, 0, 0, 1, 1]]
+Fitness wybranych: [18.4, 19.0, -12.25]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [46, 33, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 12.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000070 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [22, 16, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, -6.2, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [1, 7, 24]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [8.0, 19.0, 18.05]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [20, 24, 23]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [15, 45, 31]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 1, 1, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, -10.5, -15.6]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 1, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 1, 1]
+
+Turniej: [43, 8, 38]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 0, 1, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-1.9, 18.05, -1.9]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [46, 41, 7]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000057 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [36, 34, 30]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-8.4, 0.0, 0.0]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Turniej: [15, 49, 27]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [1, 0, 0, 1, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-8.4, -2.7, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [40, 13, 8]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 0, 0, 1, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [20.25, -12.25, 18.05]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [42, 12, 39]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [32, 7, 28]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [18.9, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [8, 29, 38]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [18.05, 19.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000057 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [35, 22, 16]
+Chromosomy w turnieju: [[0, 1, 1, 1, 0], [0, 1, 0, 0, 0], [1, 0, 1, 0, 0]]
+Fitness wybranych: [-53.0, 19.0, -6.2]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [15, 6, 19]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [-8.4, 8.0, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 1, 1]
+
+Turniej: [31, 23, 40]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [9, 20, 6]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-4.65, 18.05, 8.0]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [49, 21, 36]
+Chromosomy w turnieju: [[1, 0, 0, 1, 0], [0, 1, 1, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-2.7, -76.25, -8.4]
+Wybrany osobnik: [1, 0, 0, 1, 0], Fitness: -2.7
+
+Turniej: [29, 4, 39]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -60.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [1, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [1, 1, 0, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [47, 22, 21]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 1, 1]]
+Fitness wybranych: [-60.0, 19.0, -76.25]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [5, 1, 41]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 8.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [25, 7, 36]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-8.4, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [18, 47, 11]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [1, 1, 1, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [-10.5, -60.0, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [34, 45, 24]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 1, 1, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [0.0, -10.5, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [36, 15, 31]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 1, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, -8.4, -15.6]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 1, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 1, 1]
+
+Turniej: [39, 12, 40]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [38, 40, 43]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-1.9, 20.25, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [8, 19, 45]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 0, 1, 1], [0, 0, 1, 1, 1]]
+Fitness wybranych: [18.05, 18.4, -10.5]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Turniej: [6, 25, 39]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [8.0, -8.4, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 1, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [47, 11, 39]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-60.0, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [7, 14, 4]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 0], [1, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 1.7, -60.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [24, 5, 19]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 1, 1]]
+Fitness wybranych: [18.05, 0.0, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Turniej: [6, 0, 11]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 1, 1, 1], [0, 0, 1, 0, 0]]
+Fitness wybranych: [8.0, -76.25, 18.05]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 1, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [48, 37, 44]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 0, 1, 1, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [18.9, 0.0, 8.0]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Turniej: [42, 35, 47]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 1, 1, 0], [1, 1, 1, 0, 0]]
+Fitness wybranych: [0.0, -53.0, -60.0]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Pokolenie 3:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -139.75
+Średnia różnorodność populacji: 0.4000
+
+Turniej: [18, 29, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -8.4, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [18, 43, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, 0.0, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000050 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [5, 23, 20]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, 18.05, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [37, 25, 47]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [1.7, -4.65, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000051 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [41, 48, 14]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 12.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [25, 28, 9]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, 10.2, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000065 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [33, 1, 41]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [1, 1, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, -60.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [26, 48, 46]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [1, 0, 0, 0, 1], [0, 0, 1, 1, 1]]
+Fitness wybranych: [1.7, 12.0, -10.5]
+Wybrany osobnik: [1, 0, 0, 0, 1], Fitness: 12.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000065 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [1, 1, 0, 0, 1]
+
+Turniej: [48, 44, 10]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [12.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [11, 44, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [19.0, 19.0, -10.5]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [35, 49, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 0], [1, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, -1.9, -60.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [5, 31, 48]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [1, 0, 0, 0, 1]]
+Fitness wybranych: [18.05, 15.0, 12.0]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [42, 49, 12]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-8.4, -1.9, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [13, 27, 46]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [18.05, 0.0, -10.5]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [0, 0, 1, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [18, 33, 26]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [19.0, 0.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [12, 7, 32]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [1, 1, 1, 1, 0]]
+Fitness wybranych: [8.0, 19.0, -139.75]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [13, 9, 16]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [18.05, 19.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [47, 26, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 1.7, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [21, 48, 11]
+Chromosomy w turnieju: [[1, 1, 1, 1, 0], [1, 0, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-139.75, 12.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [33, 8, 9]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [6, 19, 39]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 1, 1], [1, 0, 1, 1, 1]]
+Fitness wybranych: [0.0, -8.4, -75.6]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Turniej: [28, 6, 14]
+Chromosomy w turnieju: [[1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [10.2, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000076 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [18, 35, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [22, 42, 3]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [20.25, -8.4, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000051 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [24, 28, 37]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [1, 0, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-15.6, 10.2, 1.7]
+Wybrany osobnik: [1, 0, 0, 0, 0], Fitness: 10.2
+
+Turniej: [26, 13, 40]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 0, 1, 0, 0], [1, 1, 1, 0, 1]]
+Fitness wybranych: [1.7, 18.05, -84.1]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [1, 0, 0, 0, 0]
+Rodzic 2: [0, 0, 1, 0, 0]
+Dziecko 1: [1, 0, 1, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [10, 48, 22]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 12.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [16, 11, 30]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 0], [1, 0, 1, 0, 1]]
+Fitness wybranych: [-1.9, 19.0, -17.55]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [20, 10, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 19.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [18, 2, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, -15.6, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000058 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [31, 21, 22]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [1, 1, 1, 1, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [15.0, -139.75, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [27, 35, 37]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [0.0, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [8, 4, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [11, 39, 45]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 1, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -75.6, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [36, 4, 10]
+Chromosomy w turnieju: [[1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-6.2, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [7, 23, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 18.05, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [14, 22, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [1, 9, 3]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-60.0, 19.0, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [24, 27, 38]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-15.6, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [18, 41, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000064 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [17, 32, 7]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [1, 1, 1, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, -139.75, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [23, 32, 8]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [1, 1, 1, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.05, -139.75, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [8, 30, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [19.0, -17.55, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [25, 30, 32]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 0, 1, 0, 1], [1, 1, 1, 1, 0]]
+Fitness wybranych: [-4.65, -17.55, -139.75]
+Wybrany osobnik: [1, 1, 0, 0, 0], Fitness: -4.65
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [1, 1, 0, 0, 0]
+
+Turniej: [1, 19, 49]
+Chromosomy w turnieju: [[1, 1, 1, 0, 0], [0, 1, 0, 1, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-60.0, -8.4, -1.9]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Turniej: [26, 25, 43]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [1, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [1.7, -4.65, 0.0]
+Wybrany osobnik: [0, 1, 0, 1, 0], Fitness: 1.7
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 1, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Turniej: [22, 24, 36]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [1, 0, 1, 0, 0]]
+Fitness wybranych: [20.25, -15.6, -6.2]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 25, 16]
+Chromosomy w turnieju: [[1, 0, 1, 0, 1], [1, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-17.55, -4.65, -1.9]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 1, 0, 0]
+Dziecko 1: [0, 1, 1, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [16, 6, 42]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-1.9, 0.0, -8.4]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Turniej: [14, 42, 34]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [20.25, -8.4, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Pokolenie 4:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -76.25
+Średnia różnorodność populacji: 0.3000
+
+Turniej: [11, 19, 18]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0, 0, 1, 1]]
+Fitness wybranych: [0.0, 1.7, 18.4]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Turniej: [28, 17, 41]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -4.65, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [11, 24, 16]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [1, 0, 1, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, -6.2, -4.65]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Turniej: [35, 25, 38]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-1.9, 0.0, -1.9]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [1, 35, 28]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -1.9, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [47, 45, 41]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 1, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, -53.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [35, 9, 1]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [2, 43, 47]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 1, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 15.0, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [23, 46, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 18.9, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 25, 40]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [22, 6, 29]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 15.0, -4.65]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [15, 21, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 20.25, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [47, 2, 48]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [31, 16, 5]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -4.65, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [1, 5, 13]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [0, 33, 44]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [1, 0, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [1.7, 10.2, -4.65]
+Wybrany osobnik: [1, 0, 0, 0, 0], Fitness: 10.2
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [1, 1, 0, 0, 0]
+
+Turniej: [49, 1, 7]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 19.0, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [6, 40, 0]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [15.0, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [43, 36, 1]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [15.0, 8.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [20, 22, 31]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [6, 37, 31]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [15.0, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [29, 14, 25]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-4.65, 19.0, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000057 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [46, 6, 47]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 0, 0, 1, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [18.9, 15.0, -4.65]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Turniej: [31, 32, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 19.0, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Turniej: [35, 47, 14]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, -4.65, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [10, 33, 35]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [1, 0, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-76.25, 10.2, -1.9]
+Wybrany osobnik: [1, 0, 0, 0, 0], Fitness: 10.2
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000042 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [1, 0, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [1, 0, 0, 0, 0]
+
+Turniej: [30, 46, 38]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 1, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [8.0, 18.9, -1.9]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Turniej: [42, 9, 15]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 1, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 1, 0, 0]
+
+Turniej: [13, 20, 27]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 0.0, -4.65]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Turniej: [14, 5, 43]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [19.0, 19.0, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 0, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [30, 7, 10]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 1, 1, 1]]
+Fitness wybranych: [8.0, -15.6, -76.25]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [28, 32, 40]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [44, 2, 12]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-4.65, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [20, 43, 8]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 15.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000062 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [9, 12, 31]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [3, 34, 0]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-1.9, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000051 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [9, 19, 14]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 1.7, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [5, 11, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [40, 24, 18]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 1, 0, 0], [0, 0, 0, 1, 1]]
+Fitness wybranych: [19.0, -6.2, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [27, 47, 41]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, -4.65, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [44, 34, 17]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, 19.0, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [47, 17, 11]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-4.65, -4.65, 0.0]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [47, 35, 21]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 1, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-4.65, -1.9, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [3, 33, 2]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [1, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-1.9, 10.2, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [48, 13, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [30, 25, 23]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [37, 35, 6]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [0.0, -1.9, 15.0]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [18, 49, 1]
+Chromosomy w turnieju: [[0, 0, 0, 1, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [18.4, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000064 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [46, 34, 35]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [18.9, 19.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [39, 27, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [19.0, -4.65, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Pokolenie 5:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -50.6
+Średnia różnorodność populacji: 0.3000
+
+Turniej: [4, 34, 36]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-4.65, 8.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [17, 6, 48]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [17, 22, 19]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 37, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [42, 19, 6]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 39, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [10, 6, 31]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [1.7, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [20, 49, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000067 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [44, 22, 46]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 1, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-1.9, -8.4, 1.7]
+Wybrany osobnik: [0, 1, 0, 1, 0], Fitness: 1.7
+
+Turniej: [11, 20, 4]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000093 s):
+Rodzic 1: [0, 1, 0, 1, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [7, 35, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [26, 22, 45]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [17, 39, 42]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [41, 16, 23]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [0.0, 19.0, -10.5]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [39, 34, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [19.0, 8.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [17, 30, 18]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 1, 0]]
+Fitness wybranych: [0.0, 20.25, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000070 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [9, 13, 21]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 1, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-1.9, -8.4, 1.7]
+Wybrany osobnik: [0, 1, 0, 1, 0], Fitness: 1.7
+
+Turniej: [44, 12, 33]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [1, 1, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-1.9, -15.6, 0.0]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 1, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 1, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [46, 15, 49]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [1, 1, 0, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [1.7, -50.6, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [16, 43, 41]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [19.0, 20.25, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [20, 36, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [2, 16, 21]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [0.0, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000081 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [3, 32, 17]
+Chromosomy w turnieju: [[0, 0, 1, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [18.05, 20.25, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [35, 32, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 20.25, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [17, 35, 22]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [0.0, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [44, 19, 24]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000076 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [2, 27, 12]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 1, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 18.05, -15.6]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [35, 37, 7]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000076 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Turniej: [4, 46, 1]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-4.65, 1.7, 0.0]
+Wybrany osobnik: [0, 1, 0, 1, 0], Fitness: 1.7
+
+Turniej: [9, 13, 14]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 1, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [-1.9, -8.4, -1.9]
+Wybrany osobnik: [0, 1, 1, 0, 0], Fitness: -1.9
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 1, 0]
+Rodzic 2: [0, 1, 1, 0, 0]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 1, 1, 0, 0]
+
+Turniej: [37, 18, 23]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 0, 1, 1, 1]]
+Fitness wybranych: [0.0, 15.0, -10.5]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [16, 47, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 0.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 0]
+
+Turniej: [18, 17, 21]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [15.0, 0.0, 1.7]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [25, 1, 33]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [12.0, 0.0, 0.0]
+Wybrany osobnik: [1, 0, 0, 0, 1], Fitness: 12.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [1, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 1, 0]
+Dziecko 2: [1, 0, 0, 0, 1]
+
+Turniej: [30, 5, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 1.7, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [44, 48, 39]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [9, 40, 20]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 1, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-1.9, -1.9, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [41, 11, 13]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [0.0, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [49, 42, 44]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 1, 0, 0]]
+Fitness wybranych: [19.0, 20.25, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [37, 0, 4]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [1, 0, 0, 1, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, -12.25, -4.65]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [42, 24, 11]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [31, 24, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [23, 20, 46]
+Chromosomy w turnieju: [[0, 0, 1, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-10.5, 20.25, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [5, 32, 0]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 1], [1, 0, 0, 1, 1]]
+Fitness wybranych: [1.7, 20.25, -12.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000055 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [37, 3, 34]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [0.0, 18.05, 8.0]
+Wybrany osobnik: [0, 0, 1, 0, 0], Fitness: 18.05
+
+Turniej: [36, 23, 42]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, -10.5, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 0, 1, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 1, 0, 1]
+
+Turniej: [36, 30, 43]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [45, 18, 31]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 15.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [22, 23, 38]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 1, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-8.4, -10.5, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [37, 45, 36]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Pokolenie 6:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -76.25
+Średnia różnorodność populacji: 0.3200
+
+Turniej: [20, 17, 8]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 0.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [19, 38, 22]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [30, 43, 27]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 0, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [1.7, 8.0, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [41, 48, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000043 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [39, 35, 16]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [19.0, 19.0, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [22, 15, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [27, 13, 4]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 26, 10]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [1, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, -4.65, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [22, 44, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 44, 47]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 19.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [6, 29, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0]]
+Fitness wybranych: [19.0, 18.05, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [39, 2, 41]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 18.9, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [45, 4, 18]
+Chromosomy w turnieju: [[1, 0, 1, 0, 1], [0, 1, 0, 0, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [-17.55, 20.25, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [32, 44, 14]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 1, 0, 0, 0], [0, 1, 1, 1, 1]]
+Fitness wybranych: [15.0, 19.0, -76.25]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [47, 42, 7]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-13.8, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 38, 16]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [20.25, 0.0, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [5, 24, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -1.9, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [34, 8, 23]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [16, 49, 23]
+Chromosomy w turnieju: [[0, 0, 0, 1, 0], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [15.0, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [20, 25, 33]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [1, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, -8.4, -12.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000055 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [5, 28, 11]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 1.7, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [4, 42, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000075 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [22, 31, 39]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [20, 29, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 1, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 18.05, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000072 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [26, 1, 8]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-4.65, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [4, 18, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [20.25, -4.65, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000075 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [7, 9, 15]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [12, 45, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 0, 1, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -17.55, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000071 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [15, 23, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [15, 35, 24]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 1, 0, 0]]
+Fitness wybranych: [20.25, 19.0, -1.9]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000058 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [10, 44, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 0, 1, 0]]
+Fitness wybranych: [20.25, 19.0, 15.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [31, 14, 22]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 1, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, -76.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000093 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [26, 4, 11]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-4.65, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [24, 19, 26]
+Chromosomy w turnieju: [[0, 1, 1, 0, 0], [0, 1, 0, 0, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [-1.9, 20.25, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [39, 13, 48]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [38, 5, 8]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [0.0, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [3, 23, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [15, 24, 11]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, -1.9, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [21, 27, 22]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [25, 38, 6]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-8.4, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [47, 38, 41]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-13.8, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [27, 35, 39]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [8.0, 19.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000064 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [17, 43, 34]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [36, 48, 29]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0]]
+Fitness wybranych: [20.25, 19.0, 18.05]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000070 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [5, 20, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 18.9]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [22, 34, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [45, 16, 30]
+Chromosomy w turnieju: [[1, 0, 1, 0, 1], [0, 0, 0, 1, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-17.55, 15.0, 1.7]
+Wybrany osobnik: [0, 0, 0, 1, 0], Fitness: 15.0
+
+Turniej: [2, 25, 49]
+Chromosomy w turnieju: [[0, 0, 1, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [18.9, -8.4, -8.4]
+Wybrany osobnik: [0, 0, 1, 0, 1], Fitness: 18.9
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000068 s):
+Rodzic 1: [0, 0, 0, 1, 0]
+Rodzic 2: [0, 0, 1, 0, 1]
+Dziecko 1: [0, 0, 1, 1, 0]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [21, 6, 14]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 1, 1]]
+Fitness wybranych: [19.0, 19.0, -76.25]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [13, 3, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000066 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Pokolenie 7:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -175.2
+Średnia różnorodność populacji: 0.2600
+
+Turniej: [4, 33, 7]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [27, 29, 20]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-13.8, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000050 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [44, 0, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [39, 34, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 19.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [16, 21, 33]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [17, 4, 44]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [2, 10, 42]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [12, 7, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000070 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [39, 15, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, -1.9, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [49, 42, 14]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [22, 7, 31]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [12.0, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [44, 7, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 1, 0]]
+Fitness wybranych: [20.25, 20.25, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [29, 2, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 8.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [5, 7, 47]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 1], [1, 0, 0, 0, 1]]
+Fitness wybranych: [8.0, 20.25, 12.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000051 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [35, 25, 20]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [4, 40, 41]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [0.0, 20.25, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [25, 46, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 1, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [21, 46, 28]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 1, 1, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [26, 40, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [38, 28, 48]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-13.8, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [11, 48, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 19.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [3, 4, 16]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 0.0, -15.6]
+Wybrany osobnik: [0, 0, 0, 0, 0], Fitness: 0.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 0]
+Dziecko 1: [0, 0, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [45, 3, 17]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [43, 14, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [45, 48, 35]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-8.4, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [6, 33, 26]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [13, 12, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [34, 10, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000065 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [18, 21, 35]
+Chromosomy w turnieju: [[1, 1, 1, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-84.1, -8.4, -8.4]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Turniej: [34, 45, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [19.0, -8.4, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000068 s):
+Rodzic 1: [0, 1, 0, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 1, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [20, 2, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [47, 34, 36]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [12.0, 19.0, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000077 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [29, 49, 23]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [1, 1, 1, 1, 1]]
+Fitness wybranych: [20.25, -8.4, -175.2]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 29, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000050 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [47, 20, 16]
+Chromosomy w turnieju: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [12.0, 20.25, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [24, 37, 38]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [1.7, 19.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000062 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [26, 27, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -13.8, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [25, 11, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 19.0, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [32, 30, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 5, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000083 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [3, 41, 48]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 1, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [0.0, 1.7, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [5, 40, 23]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 1], [1, 1, 1, 1, 1]]
+Fitness wybranych: [8.0, 20.25, -175.2]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [13, 48, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [49, 2, 46]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 0, 1, 1, 0]]
+Fitness wybranych: [-8.4, 8.0, 0.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [24, 10, 17]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [1.7, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [6, 18, 24]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 1, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [20.25, -84.1, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [36, 29, 13]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [8.0, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [38, 31, 36]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 1, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-13.8, -13.8, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [0, 35, 3]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [20.25, -8.4, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [37, 38, 42]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, -13.8, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Pokolenie 8:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -84.10000000000001
+Średnia różnorodność populacji: 0.2400
+
+Turniej: [10, 44, 3]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-13.8, -8.4, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [24, 40, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [3, 0, 26]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [1, 45, 10]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [36, 24, 28]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 36, 45]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [16, 46, 3]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 13, 17]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [47, 4, 21]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-13.8, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [23, 43, 21]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [6, 39, 8]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [44, 7, 0]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000059 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [42, 15, 1]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [39, 42, 6]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000058 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [30, 39, 6]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [35, 27, 47]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 0, 1, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 18.9, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000063 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [17, 5, 10]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 1.7, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [8, 43, 47]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [8, 1, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [14, 45, 21]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000058 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [30, 31, 41]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [2, 7, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [4, 36, 28]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [10, 49, 33]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-13.8, -8.4, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000069 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [31, 29, 8]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [0.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [40, 29, 46]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000052 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [24, 11, 18]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [45, 41, 42]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [22, 27, 38]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 0, 1, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-76.25, 18.9, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [32, 48, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [15, 30, 17]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 20, 4]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 0, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 18.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [7, 12, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [47, 41, 13]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-13.8, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [5, 45, 2]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [1.7, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [13, 31, 15]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 0.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [43, 41, 42]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [36, 27, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 18.9, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [37, 30, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, -15.6, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [8, 49, 44]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, -8.4, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [32, 17, 41]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [24, 15, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [7, 8, 16]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [10, 26, 3]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-13.8, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [49, 7, 38]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [36, 42, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [34, 7, 49]
+Chromosomy w turnieju: [[1, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-84.1, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [13, 21, 5]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-8.4, 8.0, 1.7]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000077 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [7, 47, 21]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, -13.8, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [29, 9, 23]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [19.0, -13.8, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Pokolenie 9:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -76.25
+Średnia różnorodność populacji: 0.1800
+
+Turniej: [48, 0, 14]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 0], [1, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -4.65, -4.65]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [1, 22, 23]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-15.6, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [32, 23, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [5, 14, 28]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -4.65, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [16, 32, 37]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 23, 30]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [1, 9, 42]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [39, 18, 33]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -76.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [14, 0, 32]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-4.65, -4.65, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [3, 29, 45]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-13.8, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [23, 18, 25]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, -76.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [15, 7, 8]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [1, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [8.0, -15.6, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [44, 2, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, -15.6, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [45, 49, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [38, 20, 42]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [45, 10, 18]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 1, 1]]
+Fitness wybranych: [20.25, 20.25, -76.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000071 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [3, 18, 38]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 1, 1, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-13.8, -76.25, -15.6]
+Wybrany osobnik: [0, 1, 1, 0, 1], Fitness: -13.8
+
+Turniej: [24, 30, 37]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [-8.4, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 1, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 1, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [1, 34, 25]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 46, 39]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [31, 3, 40]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 1, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, -13.8, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [8, 43, 14]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 0, 0, 1], [1, 1, 0, 0, 0]]
+Fitness wybranych: [8.0, 8.0, -4.65]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [4, 29, 30]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [18, 17, 19]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-76.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000064 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [37, 20, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, -15.6, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [26, 38, 46]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000073 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [29, 12, 17]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [20, 36, 44]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000061 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [11, 21, 48]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [1, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, -15.6, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [17, 48, 4]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000056 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [48, 32, 28]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [0, 19, 4]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-4.65, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [49, 18, 21]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 1, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, -76.25, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [26, 8, 43]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-8.4, 8.0, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000055 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 0, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Turniej: [17, 6, 23]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -72.9, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [33, 2, 26]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, -15.6, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [21, 11, 43]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-15.6, -8.4, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [45, 11, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, -8.4, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [48, 35, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [28, 36, 18]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 1, 1, 1]]
+Fitness wybranych: [20.25, 19.0, -76.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [24, 34, 2]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 1, 0, 0, 0], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 19.0, -15.6]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [0, 3, 42]
+Chromosomy w turnieju: [[1, 1, 0, 0, 0], [0, 1, 1, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-4.65, -13.8, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [37, 2, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, -15.6, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [47, 3, 42]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 1, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [8.0, -13.8, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [42, 21, 3]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [1, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, -15.6, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [20, 44, 24]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-15.6, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [25, 48, 24]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [18, 47, 5]
+Chromosomy w turnieju: [[0, 1, 1, 1, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-76.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [41, 9, 47]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [1, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-8.4, -15.6, 8.0]
+Wybrany osobnik: [0, 0, 0, 0, 1], Fitness: 8.0
+
+Turniej: [9, 8, 33]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 0, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 0, 0, 0, 1]
+
+Pokolenie 10:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -84.10000000000001
+Średnia różnorodność populacji: 0.2400
+
+Turniej: [40, 43, 28]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-13.8, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [29, 36, 49]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [-8.4, 18.4, 8.0]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 1, 1]
+
+Turniej: [30, 18, 2]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [34, 23, 32]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 1, 0]]
+Fitness wybranych: [-13.8, 19.0, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000043 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [7, 29, 36]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, -8.4, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [13, 14, 31]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000044 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [9, 43, 32]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [20.25, 20.25, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [39, 43, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [1, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -84.1]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [11, 23, 40]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 19.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [20, 10, 43]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [6, 25, 33]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-13.8, 20.25, 0.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [6, 45, 33]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [1, 0, 0, 0, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [-13.8, 12.0, 0.0]
+Wybrany osobnik: [1, 0, 0, 0, 1], Fitness: 12.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [1, 0, 0, 0, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [1, 1, 0, 0, 1]
+
+Turniej: [23, 28, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 1, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, -8.4, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [5, 20, 4]
+Chromosomy w turnieju: [[1, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-15.6, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000084 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [24, 35, 27]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [1, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 20.25, -84.1]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [15, 3, 47]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [41, 15, 40]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [47, 0, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000066 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [8, 3, 23]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [20.25, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 14, 21]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [41, 2, 1]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [32, 4, 45]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 1], [1, 0, 0, 0, 1]]
+Fitness wybranych: [1.7, 20.25, 12.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [40, 28, 5]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 1, 1], [1, 1, 0, 0, 1]]
+Fitness wybranych: [-13.8, -8.4, -15.6]
+Wybrany osobnik: [0, 1, 0, 1, 1], Fitness: -8.4
+
+Turniej: [7, 11, 3]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 1, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 1, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [41, 47, 34]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 20.25, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [33, 20, 27]
+Chromosomy w turnieju: [[0, 0, 0, 0, 0], [0, 1, 0, 0, 1], [1, 1, 1, 0, 1]]
+Fitness wybranych: [0.0, 20.25, -84.1]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [47, 17, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [1, 30, 9]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 19.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [4, 22, 26]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [0, 34, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 1, 0, 1], [1, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, -13.8, 12.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [7, 10, 39]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [10, 36, 33]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 0]]
+Fitness wybranych: [8.0, 18.4, 0.0]
+Wybrany osobnik: [0, 0, 0, 1, 1], Fitness: 18.4
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 1, 1]
+
+Turniej: [49, 33, 11]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0]]
+Fitness wybranych: [8.0, 0.0, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Turniej: [26, 29, 4]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, -8.4, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 0]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 0]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [19, 44, 36]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 18.4, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [26, 29, 12]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 1], [1, 0, 0, 0, 1]]
+Fitness wybranych: [20.25, -8.4, 12.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000045 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [35, 36, 34]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 0, 0, 1, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [20.25, 18.4, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [21, 8, 32]
+Chromosomy w turnieju: [[0, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 0]]
+Fitness wybranych: [8.0, 20.25, 1.7]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000069 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [18, 2, 19]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [42, 47, 35]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [42, 26, 20]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [19.0, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 45, 34]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 1, 1, 0, 1]]
+Fitness wybranych: [19.0, 12.0, -13.8]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [28, 10, 35]
+Chromosomy w turnieju: [[0, 1, 0, 1, 1], [0, 0, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [-8.4, 8.0, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [30, 39, 11]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 0]]
+Fitness wybranych: [19.0, 20.25, 19.0]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(2), np.int64(3)], czas: 0.000048 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [6, 38, 37]
+Chromosomy w turnieju: [[0, 1, 1, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 1, 1]]
+Fitness wybranych: [-13.8, 20.25, -8.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [11, 24, 49]
+Chromosomy w turnieju: [[0, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 1]]
+Fitness wybranych: [19.0, 19.0, 8.0]
+Wybrany osobnik: [0, 1, 0, 0, 0], Fitness: 19.0
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000047 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 0]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 0]
+
+Turniej: [14, 8, 36]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 0, 1, 1]]
+Fitness wybranych: [20.25, 20.25, 18.4]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [19, 18, 38]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(3)], czas: 0.000049 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Turniej: [1, 32, 4]
+Chromosomy w turnieju: [[0, 1, 0, 0, 1], [0, 1, 0, 1, 0], [0, 1, 0, 0, 1]]
+Fitness wybranych: [20.25, 1.7, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Turniej: [32, 26, 19]
+Chromosomy w turnieju: [[0, 1, 0, 1, 0], [0, 1, 0, 0, 1], [0, 1, 0, 0, 1]]
+Fitness wybranych: [1.7, 20.25, 20.25]
+Wybrany osobnik: [0, 1, 0, 0, 1], Fitness: 20.25
+
+Krzyżowanie (Two-point at [np.int64(1), np.int64(2)], czas: 0.000046 s):
+Rodzic 1: [0, 1, 0, 0, 1]
+Rodzic 2: [0, 1, 0, 0, 1]
+Dziecko 1: [0, 1, 0, 0, 1]
+Dziecko 2: [0, 1, 0, 0, 1]
+
+Podsumowanie wszystkich pokoleń:
+Pokolenie 1: Najlepsza fitness = 20.25, Najgorsza fitness = -139.75, Różnorodność = 0.5000
+Pokolenie 2: Najlepsza fitness = 20.25, Najgorsza fitness = -76.25, Różnorodność = 0.4400
+Pokolenie 3: Najlepsza fitness = 20.25, Najgorsza fitness = -139.75, Różnorodność = 0.4000
+Pokolenie 4: Najlepsza fitness = 20.25, Najgorsza fitness = -76.25, Różnorodność = 0.3000
+Pokolenie 5: Najlepsza fitness = 20.25, Najgorsza fitness = -50.6, Różnorodność = 0.3000
+Pokolenie 6: Najlepsza fitness = 20.25, Najgorsza fitness = -76.25, Różnorodność = 0.3200
+Pokolenie 7: Najlepsza fitness = 20.25, Najgorsza fitness = -175.2, Różnorodność = 0.2600
+Pokolenie 8: Najlepsza fitness = 20.25, Najgorsza fitness = -84.10000000000001, Różnorodność = 0.2400
+Pokolenie 9: Najlepsza fitness = 20.25, Najgorsza fitness = -76.25, Różnorodność = 0.1800
+Pokolenie 10: Najlepsza fitness = 20.25, Najgorsza fitness = -84.10000000000001, Różnorodność = 0.2400
+
+Czas wykonania algorytmu: 0.122455 sekund
+Średnia różnorodność wszystkich populacji: 0.3180
+Średnia najlepszych wartości fitness: 20.2500
+Średnia najgorszych wartości fitness: -97.8500
+
+Najlepsze rozwiązanie: [0, 1, 0, 0, 1]
+Wartość fitness najlepszego rozwiązania: 20.25
+Przedmioty w plecaku: [2, 5]

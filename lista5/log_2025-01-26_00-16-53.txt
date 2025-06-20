@@ -1,0 +1,391 @@
+Log algorytmu genetycznego:
+Data: 2025-01-26 00:16:53
+Rozmiar populacji: 10
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.05
+Metoda selekcji: ranking
+Operator krzyżowania: Single-point
+Metoda inicjalizacji populacji: uniform
+
+Pokolenie 1:
+Najlepsza wartość fitness: 20.25
+Najgorsza wartość fitness: -53.0
+Średnia wartość fitness: -5.19
+Różnorodność populacji: 0.8000
+
+Krzyżowanie (Single-point at 3, czas: 0.000023 s):
+Rodzic 1: [1, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [1, 0, 0, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000019 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 1, 1, 1]
+Dziecko 1: [0, 0, 1, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000014 s):
+Rodzic 1: [0, 0, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 0, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000013 s):
+Rodzic 1: [0, 1, 1, 0, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 0, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000014 s):
+Rodzic 1: [0, 1, 1, 0, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 0, 0]
+
+Pokolenie 2:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: -76.25
+Średnia wartość fitness: -27.63
+Różnorodność populacji: 0.6000
+
+Krzyżowanie (Single-point at 1, czas: 0.000013 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [1, 0, 0, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [1, 0, 1, 1, 0]
+Dziecko 2: [0, 1, 0, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 0, 0, 1, 1]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [0, 0, 0, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Pokolenie 3:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: -53.0
+Średnia wartość fitness: -19.16
+Różnorodność populacji: 0.5000
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [1, 0, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [1, 0, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [0, 0, 0, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000015 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 0, 1, 1]
+Dziecko 1: [0, 0, 0, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 1, 1, 0]
+Dziecko 1: [0, 0, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Pokolenie 4:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: -76.25
+Średnia wartość fitness: -35.73
+Różnorodność populacji: 0.5000
+
+Krzyżowanie (Single-point at 2, czas: 0.000018 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 0, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 0, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000018 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000018 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 2, czas: 0.000018 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 2, czas: 0.000019 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Pokolenie 5:
+Najlepsza wartość fitness: 0.0
+Najgorsza wartość fitness: -76.25
+Średnia wartość fitness: -45.56
+Różnorodność populacji: 0.4000
+
+Krzyżowanie (Single-point at 1, czas: 0.000013 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 2, czas: 0.000011 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Pokolenie 6:
+Najlepsza wartość fitness: -53.0
+Najgorsza wartość fitness: -76.25
+Średnia wartość fitness: -59.98
+Różnorodność populacji: 0.2000
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 3, czas: 0.000013 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Pokolenie 7:
+Najlepsza wartość fitness: -53.0
+Najgorsza wartość fitness: -175.2
+Średnia wartość fitness: -80.87
+Różnorodność populacji: 0.4000
+
+Krzyżowanie (Single-point at 2, czas: 0.000031 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [0, 1, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [0, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 0]
+Dziecko 1: [0, 1, 1, 1, 0]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Pokolenie 8:
+Najlepsza wartość fitness: -13.800000000000002
+Najgorsza wartość fitness: -175.2
+Średnia wartość fitness: -101.87
+Różnorodność populacji: 0.5000
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [0, 1, 1, 0, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [0, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 0, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [0, 1, 1, 1, 0]
+Dziecko 1: [1, 1, 1, 1, 0]
+Dziecko 2: [0, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 2, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 0]
+Dziecko 1: [1, 1, 1, 1, 0]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Pokolenie 9:
+Najlepsza wartość fitness: -76.25
+Najgorsza wartość fitness: -175.2
+Średnia wartość fitness: -132.12
+Różnorodność populacji: 0.4000
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 0, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 0, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 0, 1]
+Dziecko 1: [1, 1, 1, 0, 1]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 0]
+Rodzic 2: [1, 1, 1, 1, 0]
+Dziecko 1: [1, 1, 1, 1, 0]
+Dziecko 2: [1, 1, 1, 1, 0]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 1, 0]
+Dziecko 1: [1, 1, 1, 1, 0]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Pokolenie 10:
+Najlepsza wartość fitness: -52.9
+Najgorsza wartość fitness: -175.2
+Średnia wartość fitness: -134.12
+Różnorodność populacji: 0.4000
+
+Krzyżowanie (Single-point at 2, czas: 0.000011 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Krzyżowanie (Single-point at 1, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 0, 1]
+Rodzic 2: [1, 1, 1, 1, 0]
+Dziecko 1: [1, 1, 1, 1, 0]
+Dziecko 2: [1, 1, 1, 0, 1]
+
+Krzyżowanie (Single-point at 3, czas: 0.000012 s):
+Rodzic 1: [1, 1, 1, 1, 1]
+Rodzic 2: [1, 1, 1, 1, 1]
+Dziecko 1: [1, 1, 1, 1, 1]
+Dziecko 2: [1, 1, 1, 1, 1]
+
+Podsumowanie statystyk dla wszystkich pokoleń:
+Pokolenie Najlepsza_Fitness   Najgorsza_Fitness   Średnia_Fitness     Różnorodność
+1         20.2500             -53.0000            -5.1900             0.8000    
+2         18.4000             -76.2500            -27.6350            0.6000    
+3         18.4000             -53.0000            -19.1650            0.5000    
+4         18.4000             -76.2500            -35.7350            0.5000    
+5         0.0000              -76.2500            -45.5650            0.4000    
+6         -53.0000            -76.2500            -59.9750            0.2000    
+7         -53.0000            -175.2000           -80.8700            0.4000    
+8         -13.8000            -175.2000           -101.8700           0.5000    
+9         -76.2500            -175.2000           -132.1200           0.4000    
+10        -52.9000            -175.2000           -134.1150           0.4000    
+
+Czas wykonania algorytmu: 0.019112 sekund
+
+Rozmiar populacji: 10
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.05
+Metoda selekcji: ranking
+Współczynnik skali rankingowej: 1.7
+Operator krzyżowania: Single-point
+Metoda inicjalizacji populacji: uniform

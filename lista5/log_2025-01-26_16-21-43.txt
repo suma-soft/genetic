@@ -1,0 +1,95 @@
+Log algorytmu genetycznego:
+Data: 2025-01-26 16:21:43
+Rozmiar populacji: 10
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.05
+Metoda selekcji: roulette
+Operator krzyżowania: Single-point
+Metoda mutacji: dynamic
+Metoda inicjalizacji populacji: uniform
+
+Pokolenie 1:
+Najlepsza wartość fitness: 18.05
+Najgorsza wartość fitness: -84.10000000000001
+Średnia wartość fitness: -13.97
+Różnorodność populacji: 1.0000
+
+Pokolenie 2:
+Najlepsza wartość fitness: 18.9
+Najgorsza wartość fitness: -17.549999999999997
+Średnia wartość fitness: 5.92
+Różnorodność populacji: 0.9000
+
+Pokolenie 3:
+Najlepsza wartość fitness: 18.9
+Najgorsza wartość fitness: -53.0
+Średnia wartość fitness: 3.71
+Różnorodność populacji: 0.6000
+
+Pokolenie 4:
+Najlepsza wartość fitness: 18.9
+Najgorsza wartość fitness: -72.9
+Średnia wartość fitness: 4.57
+Różnorodność populacji: 0.5000
+
+Pokolenie 5:
+Najlepsza wartość fitness: 15
+Najgorsza wartość fitness: -2.7000000000000024
+Średnia wartość fitness: 9.24
+Różnorodność populacji: 0.3000
+
+Pokolenie 6:
+Najlepsza wartość fitness: 15
+Najgorsza wartość fitness: -50.6
+Średnia wartość fitness: 8.44
+Różnorodność populacji: 0.2000
+
+Pokolenie 7:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: 0
+Średnia wartość fitness: 12.51
+Różnorodność populacji: 0.4000
+
+Pokolenie 8:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: 0
+Średnia wartość fitness: 13.84
+Różnorodność populacji: 0.3000
+
+Pokolenie 9:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: 15
+Średnia wartość fitness: 15.68
+Różnorodność populacji: 0.2000
+
+Pokolenie 10:
+Najlepsza wartość fitness: 18.400000000000002
+Najgorsza wartość fitness: 8
+Średnia wartość fitness: 17.36
+Różnorodność populacji: 0.2000
+
+Podsumowanie statystyk dla wszystkich pokoleń:
+Pokolenie Najlepsza_Fitness   Najgorsza_Fitness   Średnia_Fitness     Różnorodność
+1         18.0500             -84.1000            -13.9700            1.0000    
+2         18.9000             -17.5500            5.9200              0.9000    
+3         18.9000             -53.0000            3.7100              0.6000    
+4         18.9000             -72.9000            4.5700              0.5000    
+5         15.0000             -2.7000             9.2400              0.3000    
+6         15.0000             -50.6000            8.4400              0.2000    
+7         18.4000             0.0000              12.5100             0.4000    
+8         18.4000             0.0000              13.8400             0.3000    
+9         18.4000             15.0000             15.6800             0.2000    
+10        18.4000             8.0000              17.3600             0.2000    
+
+Czas wykonania algorytmu: 0.010972 sekund
+
+Rozmiar populacji: 10
+Liczba pokoleń: 10
+Wskaźnik mutacji: 0.05
+Metoda selekcji: roulette
+Operator krzyżowania: Single-point
+Metoda mutacji: dynamic
+Metoda inicjalizacji populacji: uniform
+
+
+Data: 2025-01-26 16:21:43
